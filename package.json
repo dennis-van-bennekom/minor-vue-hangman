@@ -4,8 +4,7 @@
   "author": "Dennis van Bennekom <vanbennekomdennis@gmail.com>",
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "rimraf dist && webpack --progress --hide-modules --config build/webpack.prod.conf.js",
-    "test": "karma start build/karma.conf.js --single-run"
+    "build": "rimraf dist && webpack --progress --hide-modules --config build/webpack.prod.conf.js"
   },
   "dependencies": {
     "lodash.uniq": "^4.1.0",
